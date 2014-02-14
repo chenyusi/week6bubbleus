@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+
+	 	
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans">
+
+    <script src="jquery-1.11.0.min.js"></script>
+	<script src="jqfloat.js"></script>
+	<script>
+		$(document).ready(function() {
+    	$('.bubble').jqFloat();
+    	$('#bubble2').jqFloat();
+    	$('#bubble3').jqFloat({
+			width:10,
+			height:50,
+			speed:1800
+	    });
+	    $('#bubble4').jqFloat({
+			width:5,
+			height:100,
+			speed:1000
+	    });
+	});
+	</script>		
+
+	</head>
+
+
+	<body>
+
+		<div id="container">
+
+			<div id="status">
+				<img id="status_bar" src="../bubbleus/images/status_bar.png">
+			</div>
+
+			<div id="header">
+				<a href="#"><img id="home_button" src="../bubbleus/images/homepage.png"></a>
+				<a href="#"><img id="setting" src="../bubbleus/images/setting.png"></a>
+			
+				
+			</div>
+
+			<div id="home_content">
+
+				<a id="bubble1" class="bubble" href="../Bubbleus/text_example.html"><img src="../bubbleus/images/bubbles.png"></a>
+
+				<a id="bubble2" class="bubble" href="../Bubbleus/capsule_example.html"><img src="../bubbleus/images/bubbles.png"></a>
+
+				<a id="bubble3" class="bubble" href="../Bubbleus/oldpiggy_example.html"><img src="../bubbleus/images/piggy2.png"></a>
+	
+				<a id="bubble4" class="bubble" href="../Bubbleus/oldpiggy_example.html"><img src="../bubbleus/images/piggy2.png"></a>
+			</div>
+
+
+			<div id="home_buttons">
+
+				<div id="msg_button"><a href="../Bubbleus/text.html"><img  src="../bubbleus/images/msg.png"></a></div>
+
+				<div id="piggy_button"><a href="../Bubbleus/FeedPiggy.html"><img  src="../bubbleus/images/piggy_button.png"></a></div>
+
+
+			</div>
+
+			
+
+		</div>
+
+
+
+		
+
+
+
+
+
+	</body>
+
+
+</html>
+
+
+
